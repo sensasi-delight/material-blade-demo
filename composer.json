@@ -11,7 +11,7 @@
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "sensasi-delight/material-blade": "^0.1.0"
+        "sensasi-delight/material-blade": "dev-main"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
