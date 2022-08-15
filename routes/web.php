@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('index');
+});
 
 Route::get('components/button', function () {
     return view('pages.button');
-});
+})->name('pages.button');
 
 Route::get('components/checkbox', function () {
   return view('pages.checkbox');
@@ -27,8 +27,8 @@ Route::get('components/checkbox', function () {
 
 Route::get('components/icon', function () {
   return view('pages.icon');
-});
+})->name('pages.icon');
 
 Route::get('components/icon-button', function () {
   return view('pages.icon-button');
-});
+})->name('pages.icon-button');
