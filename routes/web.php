@@ -20,3 +20,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('components/button', function () {
     return view('pages.button');
 });
+
+Route::get('components/checkbox', function () {
+  return view('pages.checkbox');
+});
+
+Route::get('components/icon', function () {
+  return view('pages.icon');
+});
+
+Route::get('components/icon-button', function () {
+  return view('pages.icon-button');
+});
