@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 foreach ([
   'button',
-  // 'checkbox',
+  'checkbox',
   'icon',
   'icon-button',
   'tooltip'
