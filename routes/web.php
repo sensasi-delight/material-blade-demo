@@ -14,11 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+  return view('index');
 });
 
 
 foreach ([
+  'app-bar',
   'button',
   'checkbox',
   'icon',
@@ -26,6 +27,19 @@ foreach ([
   'tooltip'
 ] as $componentName) {
   Route::get('components/' . $componentName, function () use ($componentName) {
-      return view('pages.'. $componentName);
+    return view('pages.' . $componentName);
   })->name('pages.' . $componentName);
+}
+
+foreach ([
+  'basic',
+  'short',
+  'short-collapsed',
+  'fixed',
+  'dense',
+  'prominent'
+] as $componentName) {
+  Route::get('app-bar/iframe/' . $componentName, function () use ($componentName) {
+    return view('pages.app-bar-iframe.' . $componentName);
+  })->name('pages.app-bar.iframe.' . $componentName);
 }
