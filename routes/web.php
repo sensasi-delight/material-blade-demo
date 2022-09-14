@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 foreach ([
   'app-bar',
+  'banner',
   'button',
   'checkbox',
   'icon',
@@ -43,3 +44,7 @@ foreach ([
     return view('pages.app-bar-iframe.' . $componentName);
   })->name('pages.app-bar.iframe.' . $componentName);
 }
+
+Route::get('banner/iframe/fixed', function () {
+  return view('pages.banner-iframe.fixed');
+})->name('pages.banner.iframe.fixed');

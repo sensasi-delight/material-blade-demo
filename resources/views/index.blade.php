@@ -32,7 +32,7 @@
     </h2>
 
     <ul>
-        @foreach (['App Bar', 'Button', 'Checkbox', 'Icon', 'Icon Button', 'Tooltip'] as $component)
+        @foreach (['App Bar', 'Banner', 'Button', 'Checkbox', 'Icon', 'Icon Button', 'Tooltip'] as $component)
             <li>
                 <a href="{{ route('pages.' . strtolower(str_replace(' ', '-', $component))) }}">{{ $component }}</a>
             </li>
