@@ -8,7 +8,7 @@
     }
 </style>
 
-<x-MaterialBlade::AppBar variant="fixed">
+<x-MaterialBlade::AppBar fixed>
     <x-slot name="start">
         <x-MaterialBlade::IconButton icon="menu" color="inherit" aria-label="Open navigation menu" />
 
