@@ -17,6 +17,9 @@
 
 </head>
 <body>
+  <nav>
+    <a href="/">Home</a>
+  </nav>
   <main>
     @yield('main')
   </main>
