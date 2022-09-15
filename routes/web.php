@@ -48,3 +48,7 @@ foreach ([
 Route::get('banner/iframe/fixed', function () {
   return view('pages.banner-iframe.fixed');
 })->name('pages.banner.iframe.fixed');
+
+Route::get('components/fab', function () {
+  return view('pages.fab');
+})->name('pages.floating-action-button');
