@@ -22,10 +22,12 @@ foreach ([
   'app-bar',
   'banner',
   'button',
+  'card',
   'checkbox',
   'icon',
   'icon-button',
-  'tooltip'
+  'tooltip',
+  'typography'
 ] as $componentName) {
   Route::get('components/' . $componentName, function () use ($componentName) {
     return view('pages.' . $componentName);
