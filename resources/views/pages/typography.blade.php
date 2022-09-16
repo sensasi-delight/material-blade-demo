@@ -16,6 +16,7 @@
 &lt;x-MaterialBlade::Typography slot="Lorem ipsum dolor sit amet." />
   </pre>
     </section>
+
     <section>
         <h2>Variant</h2>
 
@@ -99,7 +100,5 @@
                 </li>
             @endforeach
         </ul>
-    </section>
-
     </section>
 @endsection
