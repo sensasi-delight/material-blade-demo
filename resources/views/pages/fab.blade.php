@@ -9,9 +9,9 @@
         <x-MaterialBlade::FAB icon="favorite" />
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::FAB icon="favorite" />
-        </pre>
+        </pre></code>
     </section>
     <section>
 
@@ -21,10 +21,10 @@
         <x-MaterialBlade::FAB icon="add" variant="mini" />
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::FAB icon="add" <b>variant="regular"</b> />
 &lt;x-MaterialBlade::FAB icon="add" <b>variant="mini"</b> />
-        </pre>
+        </pre></code>
     </section>
     <section>
         <h2>With Label</h2>
@@ -33,10 +33,10 @@
         <x-MaterialBlade::FAB icon="add" label="Create" />
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::FAB label="Order" />
 &lt;x-MaterialBlade::FAB icon="add" label="Create" />
-        </pre>
+        </pre></code>
     </section>
 
     <section>

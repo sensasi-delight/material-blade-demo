@@ -9,7 +9,7 @@
         <iframe src="{{ route('pages.app-bar.iframe.basic') }}" width="100%"></iframe>
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::AppBar>
   &lt;x-slot name="start">
       &lt;x-MaterialBlade::IconButton icon="menu" aria-label="Open navigation menu" />
@@ -24,7 +24,7 @@
   &lt;/x-slot>
 
 &lt;/x-MaterialBlade::AppBar>
-        </pre>
+        </pre></code>
 
     </section>
 
@@ -101,11 +101,11 @@
     </section>
 
     <p>source code:</p>
-    <pre>
+    <pre><code>
 &lt;x-MaterialBlade::AppBar fixed>
 ...
 &lt;x-MaterialBlade::AppBar>
-      </pre>
+      </pre></code>
     </section>
 
     <section>

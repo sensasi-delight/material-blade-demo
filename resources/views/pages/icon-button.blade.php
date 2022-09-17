@@ -13,11 +13,11 @@
 
         <div>
             <p>source code:</p>
-            <pre>
+            <pre><code>
 &lt;x-MaterialBlade::IconButton icon="delete" />
 &lt;x-MaterialBlade::IconButton icon="send" />
 &lt;x-MaterialBlade::IconButton icon="share" />
-</pre>
+</pre></code>
         </div>
 
     </section>
@@ -34,7 +34,7 @@
 
         <div>
             <p>source code:
-                <pre>
+                <pre><code>
 &lt;x-MaterialBlade::IconButton icon="home" />
 &lt;x-MaterialBlade::IconButton icon="bluetooth" color="primary" />
 &lt;x-MaterialBlade::IconButton icon="filter_vintage" color="secondary" />
@@ -42,7 +42,7 @@
 &lt;x-MaterialBlade::IconButton icon="paid" color="warning" />
 &lt;x-MaterialBlade::IconButton icon="power_settings_new" color="info" />
 &lt;x-MaterialBlade::IconButton icon="check_circle" color="success" />
-</pre>
+</pre></code>
             </p>
 
         </div>
@@ -59,13 +59,13 @@
         <div>
             <p>
                 source code:
-                <pre>
+                <pre><code>
 &lt;x-MaterialBlade::IconButton icon="home" toggle/>
 &lt;x-MaterialBlade::IconButton icon="power_settings_new" color="info" toggle="on" />
 &lt;x-MaterialBlade::IconButton icon="check_circle" color="success" toggle/>
 &lt;x-MaterialBlade::IconButton icon="send" color="secondary" toggle="on" disabled/>
 &lt;x-MaterialBlade::IconButton icon="photo_camera" color="secondary" toggle="off" disabled/>
-</pre>
+</pre></code>
             </p>
 
         </div>
@@ -84,11 +84,11 @@
         <div>
             <p>
                 source code:
-                <pre>
+                <pre><code>
 &lt;x-MaterialBlade::IconButton icon="fullscreen_exit" offIcon="fullscreen" toggle />
 &lt;x-MaterialBlade::IconButton icon="wifi" offIcon="wifi_off" toggle="on" />
 &lt;x-MaterialBlade::IconButton icon="favorite" offIcon="favorite:two-tone" toggle color="error" />
-</pre>
+</pre></code>
             </p>
 
         </div>
@@ -113,10 +113,10 @@
             <p>
                 source code:
 
-                <pre>
+                <pre><code>
 &lt;x-MaterialBlade::IconButton icon="mail" href="mailto:zainadam.id@gmail.com" />
 &lt;x-MaterialBlade::IconButton icon="phone" color="success" href="tel: +123 456 789" />
-</pre>
+</pre></code>
             </p>
         </div>
     </section>
@@ -137,11 +137,11 @@
           <p>
               source code:
 
-              <pre>
+              <pre><code>
 &lt;x-MaterialBlade::IconButton icon="home" ripple="false" />
 &lt;x-MaterialBlade::IconButton icon="close" color="error" ripple="false" />
 &lt;x-MaterialBlade::IconButton icon="logout" color="success" ripple="false" />
-</pre>
+</pre></code>
           </p>
       </div>
   </section>

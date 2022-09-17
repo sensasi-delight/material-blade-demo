@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Zain Adam">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zain Adam">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>
-    Material Blade
-    @hasSection('title')
-      - @yield('title')
-    @endif
-  </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark.min.css">
 
-  <x-MaterialBlade::_assets />
+    <title>
+        Material Blade
+        @hasSection('title')
+            - @yield('title')
+        @endif
+    </title>
+
+    <x-MaterialBlade::_assets />
 
 </head>
+
 <body>
-  <nav>
-    <a href="/">Home</a>
-  </nav>
-  <main>
-    @yield('main')
-  </main>
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+    <main>
+        @yield('main')
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/xml.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
 </body>
+
 </html>

@@ -13,7 +13,7 @@
         <x-MaterialBlade::button label="Anynomus Component" />
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;!-- set the button text via slot -->
 &lt;x-MaterialBlade::button>
   Regular Component
@@ -21,7 +21,7 @@
 
 &lt;!-- set the button text via "label" attribute -->
 &lt;x-MaterialBlade::button label="Anynomus Component" />
-        </pre>
+        </pre></code>
 
     </section>
     <section>
@@ -35,7 +35,7 @@
         <x-MaterialBlade::button label="Outlined" variant="outlined" />
 
         <p>Source Code:</p>
-        <pre>
+        <pre><code>
 &lt;!-- Default Variant -->
 &lt;x-MaterialBlade::button>Text&lt;/x-MaterialBlade::button>
 
@@ -43,7 +43,7 @@
 &lt;x-MaterialBlade::button label="Unelevated" variant="unelevated" />
 &lt;x-MaterialBlade::button label="Text" variant="text" />
 &lt;x-MaterialBlade::button label="Outlined" variant="outlined" />
-</pre>
+</pre></code>
     </section>
 
     <section>
@@ -56,12 +56,12 @@
 
         <p>source code:</p>
 
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::button href="#anchor-tag" label="Anchor Text" variant="text" />
 &lt;x-MaterialBlade::button href="#anchor-tag" label="Anchor Raised" variant="raised" />
 &lt;x-MaterialBlade::button href="#anchor-tag" label="Anchor Unelevated" variant="unelevated" />
 &lt;x-MaterialBlade::button href="#anchor-tag" label="Anchor Outlined" variant="outlined" />
-</pre>
+</pre></code>
     </section>
 
     <section>
@@ -74,12 +74,12 @@
 
         <p>source code:</p>
 
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::button label="Text Disabled" variant="text" disabled />
 &lt;x-MaterialBlade::button label="Raised Disabled" variant="raised" disabled />
 &lt;x-MaterialBlade::button label="Unelevated Disabled" variant="unelevated" disabled />
 &lt;x-MaterialBlade::button label="Outlined Disabled" variant="outlined" disabled />
-        </pre>
+        </pre></code>
     </section>
 
     <section>
@@ -91,11 +91,11 @@
 
         <p>source code:</p>
 
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::button label="Icon Leading" <b>startIcon="favorite"</b> />
 &lt;x-MaterialBlade::button label="Icon Trailing" <b>endIcon="grade"</b> />
 &lt;x-MaterialBlade::button label="Both" <b>startIcon="noise_control_off" endIcon="disabled_by_default"</b> />
-        </pre>
+        </pre></code>
 
         <p>
             you can also change the icon style, please visit the
@@ -108,11 +108,11 @@
 
         <p>source code:</p>
 
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::button label="Two Tone Icon Leading" startIcon="<b>favorite:two-tone</b>" />
 &lt;x-MaterialBlade::button label="Outlined Icon Trailing" endIcon="<b>grade:outlined</b>" />
 &lt;x-MaterialBlade::button label="Both" startIcon="<b>noise_control_off:round</b>" endIcon="<b>disabled_by_default:sharp</b>" />
-      </pre>
+      </pre></code>
 
     </section>
 

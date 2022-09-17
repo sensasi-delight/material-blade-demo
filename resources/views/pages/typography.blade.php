@@ -10,11 +10,11 @@
         <x-MaterialBlade::Typography slot="Lorem ipsum dolor sit amet." />
 
         <p>Source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Typography>Lorem ipsum dolor sit amet.&lt;/x-MaterialBlade::Typography>
 &lt;!-- or -->
 &lt;x-MaterialBlade::Typography slot="Lorem ipsum dolor sit amet." />
-  </pre>
+  </pre></code>
     </section>
 
     <section>

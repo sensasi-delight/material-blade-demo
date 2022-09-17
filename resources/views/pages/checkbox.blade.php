@@ -16,7 +16,7 @@
         <x-MaterialBlade::checkbox label="indeterminate checked disabled" indeterminate checked disabled />
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::checkbox />
 &lt;x-MaterialBlade::checkbox label="Basic" />
 &lt;x-MaterialBlade::checkbox label="Disabled" disabled />
@@ -25,7 +25,7 @@
 &lt;x-MaterialBlade::checkbox label="indeterminate" indeterminate />
 &lt;x-MaterialBlade::checkbox label="indeterminate disabled" indeterminate disabled />
 &lt;x-MaterialBlade::checkbox label="indeterminate checked disabled" indeterminate checked disabled />
-        </pre>
+        </pre></code>
 
         <p>
             Use the <code>id</code> props for checks the checkbox from it's label.
@@ -34,9 +34,9 @@
 
         <x-MaterialBlade::checkbox label="Click this text" id="the-checkbox" />
 
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::checkbox label="Click this text" id="the-checkbox" />
-        </pre>
+        </pre></code>
 
 
     </section>
@@ -53,14 +53,14 @@
       <x-MaterialBlade::checkbox label="Info" checked color="info" />
 
       <p>source code:</p>
-      <pre>
+      <pre><code>
 &lt;x-MaterialBlade::checkbox label="Primary" checked />
 &lt;x-MaterialBlade::checkbox label="Secondary" checked color="secondary" />
 &lt;x-MaterialBlade::checkbox label="Success" checked color="success" />
 &lt;x-MaterialBlade::checkbox label="Error" checked color="error" />
 &lt;x-MaterialBlade::checkbox label="Warning" checked color="warning" />
 &lt;x-MaterialBlade::checkbox label="Info" checked color="info" />
-      </pre>
+      </pre></code>
 
     </section>
 

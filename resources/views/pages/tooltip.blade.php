@@ -8,7 +8,7 @@
     <section>
       <h2>Basic Usage</h2>
 
-      <pre>
+      <pre><code>
 &lt;x-MaterialBlade::Tooltip>
     &lt;!-- anchor element (required) -->
     &lt;x-MaterialBlade::IconButton icon="info" />
@@ -26,7 +26,7 @@
         &lt;!-- Rich tooltip footer action  -->
     &lt;/x-slot>
 &lt;/x-MaterialBlade::Tooltip>
-      </pre>
+      </pre></code>
     </section>
 
     <section>
@@ -36,11 +36,11 @@
         </x-MaterialBlade::Tooltip>
 
         <p>Source Code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Tooltip title="Delete">
   &lt;x-MaterialBlade::IconButton icon="delete" />
 &lt;/x-MaterialBlade::Tooltip>
-</pre>
+</pre></code>
     </section>
 
     <section>
@@ -59,7 +59,7 @@
         </x-MaterialBlade::Tooltip>
 
         <p>Source Code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Tooltip>
     &lt;x-MaterialBlade::IconButton icon="account_circle" />
 
@@ -71,7 +71,7 @@
         &lt;x-MaterialBlade::Icon icon="fiber_manual_record" color="success" /> Online
     &lt;/x-slot>
 &lt;/x-MaterialBlade::Tooltip>
-        </pre>
+        </pre></code>
     </section>
 
 
@@ -96,7 +96,7 @@
 
         <p>source code:</p>
 
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Tooltip persistent>
     &lt;x-MaterialBlade::IconButton icon="info" />
 
@@ -112,6 +112,6 @@
         &lt;x-MaterialBlade::Button label="More" variant="text" />
     &lt;/x-slot>
 &lt;/x-MaterialBlade::Tooltip>
-        </pre>
+        </pre></code>
     </section>
 @endsection

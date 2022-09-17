@@ -11,12 +11,12 @@
             <x-MaterialBlade::Button label="Learn more" variant="text" />
         </x-MaterialBlade::Banner>
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Banner text="There was a problem processing a transaction on your credit card.">
   &lt;x-MaterialBlade::Button label="Fix it" variant="text" />
   &lt;x-MaterialBlade::Button label="Learn more" variant="text" />
 &lt;/x-MaterialBlade::Banner>
-        </pre>
+        </pre></code>
 
     </section>
 
@@ -26,11 +26,11 @@
         <iframe src="{{ route('pages.banner.iframe.fixed') }}" width="100%"></iframe>
 
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Banner <b>fixed</b> text="There was a problem processing a transaction on your credit card.">
   &lt;x-MaterialBlade::Button label="Fix it" variant="text" />
 &lt;/x-MaterialBlade::Banner>
-        </pre>
+        </pre></code>
 
 
     </section>
@@ -42,11 +42,11 @@
             <x-MaterialBlade::Button label="Fix it" variant="text" />
         </x-MaterialBlade::Banner>
         <p>source code:</p>
-        <pre>
+        <pre><code>
 &lt;x-MaterialBlade::Banner <b>icon="error_outline"</b> text="There was a problem processing a transaction on your credit card.">
   &lt;x-MaterialBlade::Button label="Fix it" variant="text" />
 &lt;/x-MaterialBlade::Banner>
-        </pre>
+        </pre></code>
     </section>
 
     <section>
