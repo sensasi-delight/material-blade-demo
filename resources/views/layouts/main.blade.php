@@ -25,13 +25,18 @@
         <a href="/">Home</a>
     </nav>
     <main>
+        @hasSection('title')
+            <h1>@yield('title')</h1>
+        @endif
         @yield('main')
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/xml.min.js"></script>
 
-    <script>hljs.highlightAll();</script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>
