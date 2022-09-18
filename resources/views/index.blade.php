@@ -38,6 +38,7 @@
           'Button',
           'Card',
           'Checkbox',
+          'Chip',
           'Floating Action Button',
           'Icon',
           'Icon Button',

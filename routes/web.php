@@ -24,6 +24,7 @@ foreach ([
   'button',
   'card',
   'checkbox',
+  'chip',
   'icon',
   'icon-button',
   'tooltip',
