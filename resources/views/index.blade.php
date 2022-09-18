@@ -39,6 +39,7 @@
           'Card',
           'Checkbox',
           'Chip',
+          'Data Table',
           'Floating Action Button',
           'Icon',
           'Icon Button',
