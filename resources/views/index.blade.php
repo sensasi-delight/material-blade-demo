@@ -43,6 +43,7 @@
           'Floating Action Button',
           'Icon',
           'Icon Button',
+          'Progress Indicator',
           'Tab Bar',
           'Tooltip',
           'Typography'

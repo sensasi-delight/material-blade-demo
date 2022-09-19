@@ -28,6 +28,7 @@ foreach ([
   'data-table',
   'icon',
   'icon-button',
+  'progress-indicator',
   'tab-bar',
   'tooltip',
   'typography'
