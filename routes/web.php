@@ -28,6 +28,7 @@ foreach ([
   'data-table',
   'icon',
   'icon-button',
+  'tab-bar',
   'tooltip',
   'typography'
 ] as $componentName) {

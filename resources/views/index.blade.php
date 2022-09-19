@@ -43,6 +43,7 @@
           'Floating Action Button',
           'Icon',
           'Icon Button',
+          'Tab Bar',
           'Tooltip',
           'Typography'
         ] as $component)
