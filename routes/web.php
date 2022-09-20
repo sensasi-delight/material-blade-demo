@@ -29,6 +29,7 @@ foreach ([
   'icon',
   'icon-button',
   'progress-indicator',
+  'switch',
   'tab-bar',
   'tooltip',
   'typography'
