@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c38ad00647e257ffb621d86268d490e1",
+    "content-hash": "616cb15b5f46c2b471d051bb2518ab48",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2865,16 +2865,16 @@
         },
         {
             "name": "sensasi-delight/material-blade",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensasi-delight/material-blade.git",
-                "reference": "08a3b100e0292bb0948c35d3e1cbf7c11f6c5370"
+                "reference": "150f6453409f35a071a2e9b2f4df64c8cf12515e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensasi-delight/material-blade/zipball/08a3b100e0292bb0948c35d3e1cbf7c11f6c5370",
-                "reference": "08a3b100e0292bb0948c35d3e1cbf7c11f6c5370",
+                "url": "https://api.github.com/repos/sensasi-delight/material-blade/zipball/150f6453409f35a071a2e9b2f4df64c8cf12515e",
+                "reference": "150f6453409f35a071a2e9b2f4df64c8cf12515e",
                 "shasum": ""
             },
             "require": {
@@ -2896,7 +2896,7 @@
                     "email": "zainadam.id@gmail.com"
                 }
             ],
-            "description": "Material Blade is a simple package that provides the beautifulness of Google Material Design components as Laravel Blade components. Material Blade aims to assist you in prototyping the UI/UX of your Laravel app faster, inspired by MaterialUI.",
+            "description": "Material Blade is a simple package that provides the beautifulness of Google Material Design components as Laravel Blade components. Material Blade aims to make UI/UX development of your Laravel app faster, inspired by Material UI.",
             "keywords": [
                 "blade",
                 "components",
@@ -2907,9 +2907,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sensasi-delight/material-blade/issues",
-                "source": "https://github.com/sensasi-delight/material-blade/tree/v0.1.1"
+                "source": "https://github.com/sensasi-delight/material-blade/tree/v0.1.2"
             },
-            "time": "2022-08-13T16:31:53+00:00"
+            "time": "2022-09-20T18:06:36+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
