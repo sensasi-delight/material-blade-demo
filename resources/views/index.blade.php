@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
 @section('main')
+
+<p style="color: orange">*There's nothing wrong with your device, I purposely used plain HTML to make Material Blade stand out more.</p>
     <h1>Material Blade</h1>
 
     <p>
