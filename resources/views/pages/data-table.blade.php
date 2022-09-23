@@ -43,12 +43,7 @@
 
     </section>
 
-    <section>
-        <h2>Source Code:</h2>
-        <p><a
-                href="https://github.com/sensasi-delight/material-blade-examples/blob/v0.1.0/resources/views/pages/data-table.blade.php">https://github.com/sensasi-delight/material-blade-examples/blob/v0.1.0/resources/views/pages/data-table.blade.php</a>
-        </p>
-    </section>
+    
     {{-- <section>
         <h2>Props</h2>
 
@@ -96,16 +91,27 @@
     </section> --}}
 
     <section>
+      <h2>Source Code:</h2>
+      <p>
+        @php
+          $url = sourceCodeGithubUrl('resources/views/pages/data-table.blade.php')
+        @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
+  </section>
+
+    <section>
         <h2>References</h2>
 
         <ul>
-            @foreach (['https://material.io/components/data-tables/web', 'https://material-components.github.io/material-components-web-catalog/#/component/data-table'] as $url)
+            @foreach ([
+              'https://material.io/components/data-tables/web',
+              'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-data-table/README.md',
+              'https://material-components.github.io/material-components-web-catalog/#/component/data-table'] as $url)
                 <li>
                     <a href="{{ $url }}" target="_blank">{{ $url }}</a>
                 </li>
             @endforeach
         </ul>
-    </section>
-
     </section>
 @endsection
