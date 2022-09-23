@@ -134,7 +134,7 @@
       <h2>Source Code:</h2>
       <p>
         @php $url = sourceCodeGithubUrl('resources/views/pages/app-bar.blade.php') @endphp
-        <a href="{{ $url }}">{{ $url }}</a>
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
       </p>
   </section>
 
@@ -142,7 +142,7 @@
     <h2>References</h2>
 
     <ul>
-        @foreach (['https://material.io/components/app-bars-top',
+        @foreach (['https://material.io/components/app-bars-top/web',
         'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-top-app-bar/README.md',
         'https://material-components.github.io/material-components-web-catalog/#/component/top-app-bar'] as $url)
             <li>

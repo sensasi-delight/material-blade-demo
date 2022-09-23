@@ -335,16 +335,24 @@
     </section> --}}
 
     <section>
-        <h2>References</h2>
+      <h2>Source Code:</h2>
+      <p>
+        @php $url = sourceCodeGithubUrl('resources/views/pages/card.blade.php') @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
+  </section>
 
-        <ul>
-            @foreach (['https://material.io/components/cards', 'https://material-components.github.io/material-components-web-catalog/#/component/card'] as $url)
-                <li>
-                    <a href="{{ $url }}" target="_blank">{{ $url }}</a>
-                </li>
-            @endforeach
-        </ul>
-    </section>
+  <section>
+    <h2>References</h2>
 
-    </section>
+    <ul>
+        @foreach (['https://material.io/components/cards/web',
+        'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-card/README.md',
+        'https://material-components.github.io/material-components-web-catalog/#/component/card'] as $url)
+            <li>
+                <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+            </li>
+        @endforeach
+    </ul>
+  </section>
 @endsection

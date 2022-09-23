@@ -48,12 +48,6 @@
 
         <!-- ... content ... -->
         <x-mbc::TabBar :tabs="$tabs4" color="primary" lightText elevation="3" />
-
-
-
-
-
-
     </section>
 
 
@@ -104,17 +98,25 @@
     </section> --}}
 
     <section>
-        <h2>Source Code:</h2>
-        <p>
-            <a href="{{ $url = 'https://github.com/sensasi-delight/material-blade-demo/blob/' . config('app.version') . '/resources/views/pages/tab-bar.blade.php' }}">{{ $url }}</a>
-        </p>
-    </section>
+      <h2>Source Code:</h2>
+      <p>
+        @php
+          $url = sourceCodeGithubUrl('resources/views/pages/tab-bar.blade.php')
+        @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
+  </section>
 
     <section>
         <h2>References</h2>
 
         <ul>
-            @foreach (['https://material-components.github.io/material-components-web-catalog/#/component/tabs'] as $url)
+            @foreach ([
+              'https://material.io/components/tabs/web',
+              'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-tab-bar/README.md',
+              'https://material-components.github.io/material-web/demos/tabs/',              
+              'https://material-components.github.io/material-components-web-catalog/#/component/tabs'
+            ] as $url)
                 <li>
                     <a href="{{ $url }}" target="_blank">{{ $url }}</a>
                 </li>

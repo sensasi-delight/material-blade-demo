@@ -3,8 +3,6 @@
 @section('title', 'Icon Button')
 
 @section('main')
-    <h1>Icon Button</h1>
-
     <section>
         <h2>Basic</h2>
         <x-MaterialBlade::IconButton icon="delete" />
@@ -144,6 +142,31 @@
 </pre></code>
           </p>
       </div>
+  </section>
+
+  <section>
+    <h2>Source Code:</h2>
+    <p>
+      @php
+        $url = sourceCodeGithubUrl('resources/views/pages/icon-button.blade.php')
+      @endphp
+      <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+    </p>
+</section>
+
+  <section>
+      <h2>References</h2>
+
+      <ul>
+          @foreach ([
+            'https://material.io/develop/web/components/buttons/icon-buttons',
+            'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-icon-button/README.md',
+            'https://material-components.github.io/material-components-web-catalog/#/component/icon-button'] as $url)
+              <li>
+                  <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+              </li>
+          @endforeach
+      </ul>
   </section>
 
 

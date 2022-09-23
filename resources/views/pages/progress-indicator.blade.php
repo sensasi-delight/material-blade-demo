@@ -56,18 +56,25 @@
     </section>
 
     <section>
-        <h2>Source Code:</h2>
-        <p>
-            <a
-                href="{{ $url = 'https://github.com/sensasi-delight/material-blade-demo/blob/' . config('app.version') . '/resources/views/pages/progress-indicator.blade.php' }}">{{ $url }}</a>
-        </p>
-    </section>
+      <h2>Source Code:</h2>
+      <p>
+        @php
+          $url = sourceCodeGithubUrl('resources/views/pages/progress-indicator.blade.php')
+        @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
+  </section>
 
     <section>
         <h2>References</h2>
 
         <ul>
-            @foreach (['https://material-components.github.io/material-components-web-catalog/#/component/linear-progress-indicator', 'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-linear-progress/README.md', 'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-circular-progress/README.md'] as $url)
+            @foreach ([
+              'https://material.io/develop/web/components/linear-progress',
+              'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-linear-progress/README.md',
+              'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-circular-progress/README.md',
+              'https://material-components.github.io/material-components-web-catalog/#/component/linear-progress-indicator'
+            ] as $url)
                 <li>
                     <a href="{{ $url }}" target="_blank">{{ $url }}</a>
                 </li>

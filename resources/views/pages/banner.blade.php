@@ -90,10 +90,23 @@
     </section>
 
     <section>
-      <h2>References</h2>
+      <h2>Source Code:</h2>
+      <p>
+        @php $url = sourceCodeGithubUrl('resources/views/pages/banner.blade.php') @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
+  </section>
 
-      <ul>
-        <li><a href="https://material.io/components/banners/web" target="_blank">https://material.io/components/banners/web</a></li>
-      </ul>
-    </section>
+  <section>
+    <h2>References</h2>
+
+    <ul>
+        @foreach (['https://material.io/components/banners/web',
+        'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-banner/README.md'] as $url)
+            <li>
+                <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+            </li>
+        @endforeach
+    </ul>
+  </section>
 @endsection

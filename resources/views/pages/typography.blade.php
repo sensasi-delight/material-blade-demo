@@ -89,12 +89,26 @@
 
     </section>
 
+    <section>
+      <h2>Source Code:</h2>
+      <p>
+        @php
+          $url = sourceCodeGithubUrl('resources/views/pages/typography.blade.php')
+        @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
+  </section>
+
 
     <section>
         <h2>References</h2>
 
         <ul>
-            @foreach (['https://material.io/develop/web/guides/typography', 'https://material-components.github.io/material-components-web-catalog/#/component/typography'] as $url)
+            @foreach ([
+              'https://material.io/develop/web/guides/typography',
+              'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-typography/README.md',
+              'https://material-components.github.io/material-components-web-catalog/#/component/typography'
+            ] as $url)
                 <li>
                     <a href="{{ $url }}" target="_blank">{{ $url }}</a>
                 </li>

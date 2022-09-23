@@ -58,10 +58,6 @@
 
       </section>
      
-      <section>
-        <h2>Source Code:</h2>
-        <p><a href="https://github.com/sensasi-delight/material-blade-examples/blob/v0.1.0/resources/views/pages/card.blade.php">https://github.com/sensasi-delight/material-blade-examples/blob/v0.1.0/resources/views/pages/chip.blade.php</a></p>
-      </section>
     {{-- <section>
         <h2>Props</h2>
 
@@ -108,17 +104,27 @@
         </table>
     </section> --}}
 
-    <section>
-        <h2>References</h2>
 
-        <ul>
-            @foreach (['https://material.io/components/chips/web', 'https://material-components.github.io/material-components-web-catalog/#/component/chips'] as $url)
-                <li>
-                    <a href="{{ $url }}" target="_blank">{{ $url }}</a>
-                </li>
-            @endforeach
-        </ul>
+    <section>
+      <h2>Source Code:</h2>
+      <p>
+        @php $url = sourceCodeGithubUrl('resources/views/pages/chip.blade.php') @endphp
+        <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+      </p>
     </section>
 
+    <section>
+      <h2>References</h2>
+
+      <ul>
+          @foreach (['https://material.io/components/chips/web',
+          'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-chips/deprecated/README.md',
+          'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-chips/README.md',
+          'https://material-components.github.io/material-components-web-catalog/#/component/chips'] as $url)
+              <li>
+                  <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+              </li>
+          @endforeach
+      </ul>
     </section>
 @endsection

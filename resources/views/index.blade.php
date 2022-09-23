@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('main')
-    <p style="color: orange">*There's nothing wrong with your device, I purposely used plain HTML to make Material Blade
+    <p style="color: orange; background-color: black; padding: 0.4em">*There's nothing wrong with your device, I purposely used plain HTML to make Material Blade
         stand out more.</p>
     <h1>Material Blade</h1>
 
@@ -66,4 +66,21 @@
     </h2>
 
     <p><i>Status: planned</i></p>
+
+    <section>
+      <h2>References</h2>
+
+      <ul>
+          @foreach ([
+            'https://material.io',
+            'https://material-components.github.io/material-web/demos/',
+            'https://material-components.github.io/material-components-web-catalog/',
+            'https://github.com/material-components/material-components-web/tree/v14.0.0'
+          ] as $url)
+              <li>
+                  <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+              </li>
+          @endforeach
+      </ul>
+  </section>
 @endsection

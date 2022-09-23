@@ -3,8 +3,6 @@
 @section('title', 'Icon')
 
 @section('main')
-<h1>Icon</h1>
-
 List of all supported icons are available on <a href="https://fonts.google.com/icons?selected=Material+Icons" target="_blank">Google Font</a> page.
 <section>
   <h2>Basic</h2>
@@ -58,6 +56,30 @@ List of all supported icons are available on <a href="https://fonts.google.com/i
       &lt;x-MaterialBlade::Icon icon="home" variant="filled"/>
     </code>
   </div>
+</section>
+
+<section>
+  <h2>Source Code:</h2>
+  <p>
+    @php
+      $url = sourceCodeGithubUrl('resources/views/pages/icon.blade.php')
+    @endphp
+    <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+  </p>
+</section>
+
+<section>
+    <h2>References</h2>
+
+    <ul>
+        @foreach ([
+          'https://fonts.google.com/icons?selected=Material+Icons',
+        ] as $url)
+            <li>
+                <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+            </li>
+        @endforeach
+    </ul>
 </section>
   
 @endsection
