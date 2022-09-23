@@ -29,52 +29,6 @@
     </section>
 
     <section>
-        <h2>Props</h2>
-
-        <table>
-            <thead>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Default</th>
-                <th>Description</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>color</td>
-                    <td>'primary'
-                        | 'secondary'
-                        | 'success'
-                        | 'error'
-                        | 'info'
-                        | 'warning'
-                        | string</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>fixed</td>
-                    <td>bool</td>
-                    <td>false</td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>variant</td>
-                    <td>
-                        | 'short'
-                        | 'short-collapsed'
-                        | 'dense'
-                        | 'prominent'
-                        | string</td>
-                    <td>basic</td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section>
         <h2>Color</h2>
 
         <p>Please click one of button below to preview the <code>App Bar</code> color</p>
@@ -130,6 +84,73 @@
         <iframe src="{{ route('pages.app-bar.iframe.prominent') }}" width="100%"></iframe>
 
     </section>
+
+    <section>
+      <h2>Props</h2>
+
+      <table>
+          <thead>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Default</th>
+              <th>Description</th>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>color</td>
+                  <td>'primary'
+                      | 'secondary'
+                      | 'success'
+                      | 'error'
+                      | 'info'
+                      | 'warning'
+                      | string</td>
+                  <td></td>
+                  <td></td>
+              </tr>
+
+              <tr>
+                  <td>fixed</td>
+                  <td>bool</td>
+                  <td>false</td>
+                  <td></td>
+              </tr>
+
+              <tr>
+                  <td>variant</td>
+                  <td>
+                      | 'short'
+                      | 'short-collapsed'
+                      | 'dense'
+                      | 'prominent'
+                      | string</td>
+                  <td>basic</td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+  </section>
+    <section>
+      <h2>Source Code:</h2>
+      <p>
+        @php $url = sourceCodeGithubUrl('resources/views/pages/app-bar.blade.php') @endphp
+        <a href="{{ $url }}">{{ $url }}</a>
+      </p>
+  </section>
+
+  <section>
+    <h2>References</h2>
+
+    <ul>
+        @foreach (['https://material.io/components/app-bars-top',
+        'https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-top-app-bar/README.md',
+        'https://material-components.github.io/material-components-web-catalog/#/component/top-app-bar'] as $url)
+            <li>
+                <a href="{{ $url }}" target="_blank">{{ $url }}</a>
+            </li>
+        @endforeach
+    </ul>
+  </section>
 
     <script>
         const r = document.querySelector(':root');
