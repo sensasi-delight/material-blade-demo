@@ -2,6 +2,24 @@
 
 use Illuminate\Support\Facades\Route;
 
+$COMPONENTS = [
+  'app-bar',
+  'banner',
+  'button',
+  'card',
+  'checkbox',
+  'chip',
+  'data-table',
+  'icon',
+  'icon-button',
+  'progress-indicator',
+  'switch',
+  'snackbar',
+  'tab-bar',
+  'tooltip',
+  'typography'
+];
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,24 +36,18 @@ Route::get('/', function () {
 });
 
 
-foreach ([
-  'app-bar',
-  'banner',
-  'button',
-  'card',
-  'checkbox',
-  'chip',
-  'data-table',
-  'icon',
-  'icon-button',
-  'progress-indicator',
-  'switch',
-  'tab-bar',
-  'tooltip',
-  'typography'
-] as $componentName) {
+foreach ($COMPONENTS as $componentName) {
   Route::get('components/' . $componentName, function () use ($componentName) {
-    return view('pages.' . $componentName);
+    $sourceCodeUrl = sourceCodeGithubUrl("resources/views/pages/$componentName.blade.php");
+
+    $references = [
+      "https://material.io/components/{$componentName}s/web",
+      "https://github.com/material-components/material-components-web/blob/v14.0.0/packages/mdc-$componentName/README.md",
+      "https://material-components.github.io/material-web/demos/$componentName/",
+      "https://material-components.github.io/material-components-web-catalog/#/component/$componentName"
+    ];
+
+    return view('pages.' . $componentName, ['references' => $references, 'sourceCodeUrl' => $sourceCodeUrl]);
   })->name('pages.' . $componentName);
 }
 

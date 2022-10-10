@@ -48,6 +48,7 @@
           'Icon Button',
           'Progress Indicator',
           'Switch',
+          'Snackbar',
           'Tab Bar',
           'Tooltip',
           'Typography'

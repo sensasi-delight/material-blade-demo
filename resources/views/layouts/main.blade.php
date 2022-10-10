@@ -16,6 +16,14 @@
         @endif
     </title>
 
+    <style>
+      .propsTable, .propsTable th, .propsTable td {
+        padding: .5em;
+        border: 1px solid black;
+  border-collapse: collapse;
+      }
+    </style>
+
     <x-MaterialBlade::_assets />
 
 </head>
