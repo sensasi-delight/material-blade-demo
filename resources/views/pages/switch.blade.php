@@ -58,17 +58,4 @@
             @endforeach
         </ul>
     </section>
-
-
-    <section>
-        <h2>References</h2>
-
-        <ul>
-            @foreach (['', ''] as $url)
-                <li>
-                    <a href="{{ $url }}" target="_blank">{{ $url }}</a>
-                </li>
-            @endforeach
-        </ul>
-    </section>
 @endsection
